@@ -1,22 +1,7 @@
-package main
+package array
 
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("Hello Go!!")
-
-	arr := [][]int32{{1,1,1,0,0,0},
-			{0,1,0,0,0,0},
-			{1,1,1,0,0,0},
-			{0,0,2,4,4,0},
-			{0,0,0,2,0,0},
-			{0,0,1,2,4,0}};
-	fmt.Println(hourglassSum(arr))
-}
-
-func hourglassSum(arr [][]int32) int32 {
+// HourglassSum function
+func HourglassSum(arr [][]int32) int32 {
     var max int32 
     rows := len(arr)
 	cols := len(arr[0])
