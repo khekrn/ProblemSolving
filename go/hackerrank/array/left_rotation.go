@@ -1,15 +1,4 @@
-package main
-
-import (
-	"fmt"
-)
-
-func main() {
-	fmt.Println("Hello Go!!")
-
-	arr := []int32{1, 2, 3, 4, 5}
-	fmt.Println(leftRotationV2(arr, 4))
-}
+package array
 
 func leftRotation(arr []int32, k int) []int32 {
 	arr = blockSwap(arr, 0, k-1)
