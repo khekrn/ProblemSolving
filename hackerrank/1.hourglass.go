@@ -2,8 +2,8 @@ package hackerrank
 
 // HourglassSum function
 func HourglassSum(arr [][]int32) int32 {
-    var max int32 
-    rows := len(arr)
+	var max int32
+	rows := len(arr)
 	cols := len(arr[0])
 	startRow, midRow, stopRow := 0, 1, 2
 	for startRow < rows && stopRow < rows {
@@ -16,12 +16,12 @@ func HourglassSum(arr [][]int32) int32 {
 			if currentMax > max {
 				max = currentMax
 			}
-			startIndex, midIndex, stopIndex = startIndex + 1, midIndex + 1, stopIndex + 1
+			startIndex, midIndex, stopIndex = startIndex+1, midIndex+1, stopIndex+1
 		}
-		startRow, midRow, stopRow = startRow +1, midRow +1, stopRow+1
+		startRow, midRow, stopRow = startRow+1, midRow+1, stopRow+1
 	}
-    
-    return max
+
+	return max
 }
 
 func sum(arr []int32) int32 {
