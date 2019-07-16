@@ -1,4 +1,4 @@
-package array
+package hackerrank
 
 // HourglassSum function
 func HourglassSum(arr [][]int32) int32 {
