@@ -7,5 +7,7 @@ import (
 )
 
 func main() {
-	fmt.Println(hackerrank.RepeatedString("aba", int64(1000000)))
+	s1 := "hi"
+	s2 := "world"
+	fmt.Println(hackerrank.TwoStrings(s1, s2))
 }
