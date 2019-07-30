@@ -4,7 +4,6 @@ package hackerrank
 // https://www.hackerrank.com/challenges/frequency-queries/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=dictionaries-hashmaps
 func FreqQuery(queries [][]int32) []int32 {
 	dict := map[int32]int32{}
-	var nothing struct{}
 
 	res := make([]int32, 0)
 
