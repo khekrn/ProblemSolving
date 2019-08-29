@@ -3,11 +3,12 @@ package main
 import (
 	"fmt"
 
-	"github.com/khekrn/ps/hackerrank"
+	"github.com/khekrn/ps/others/arrays"
 )
 
 func main() {
-	q := [][]int32{{1, 1}, {2, 2}, {3, 2}, {1, 1}, {1, 1}, {2, 1}, {3, 2}}
-	res := hackerrank.FreqQuery(q)
-	fmt.Println(res)
+	arr1 := []int32{-1, 5, 10, 20, 28, 3}
+	arr2 := []int32{26, 134, 135, 15, 17}
+
+	fmt.Println(arrays.MinimumDifference(arr1, arr2))
 }
