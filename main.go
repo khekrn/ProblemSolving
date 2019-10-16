@@ -2,13 +2,11 @@ package main
 
 import (
 	"fmt"
-
-	"github.com/khekrn/ps/others/arrays"
+	"ps/hoanhan/week1"
 )
 
 func main() {
-	arr1 := []int32{-1, 5, 10, 20, 28, 3}
-	arr2 := []int32{26, 134, 135, 15, 17}
 
-	fmt.Println(arrays.MinimumDifference(arr1, arr2))
+	input := []string{"a", "b", "c", "d"}
+	fmt.Println(week1.Reverse(input))
 }
